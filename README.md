@@ -35,34 +35,41 @@ Before you start using the ToDo App, make sure you have the following installed:
 
    ```bash
    git clone https://github.com/Rahul7879/Todo-App-EmergentX.git
-Navigate to the backend directory:
+   
 
-bash
+Navigate to the backend directory:
 Copy code
-cd Todo-APP-EmergentX/server
+
+ 
+    cd Todo-APP-EmergentX/server
+
 Install the backend dependencies:
 
-bash
-Copy code
-npm install
-Configure the backend settings, such as MongoDB connection URI, in a .env file.
+Copy code    
+    ```code
+
+    'npm install'
+  Configure the backend settings, such as MongoDB connection URI, in a .env file.
 
 Start the backend server:
 
 bash
 Copy code
-npm start
+    
+     npm start
  ###  Frontend Installation
 In a separate terminal, navigate to the frontend directory:
 
 bash
 Copy code
-cd Todo-APP-EmergentX/client
+ 
+    cd Todo-APP-EmergentX/client
 Install the frontend dependencies:
 
 bash
 Copy code
-npm install
+
+    npm install
 ###  Running the App
 Start your MongoDB server.
 
@@ -72,7 +79,8 @@ In the frontend directory, start the React development server:
 
 bash
 Copy code
-npm start
+  
+    npm start
 Open your web browser and go to http://localhost:3000 to access the ToDo App frontend.
 
 ###  Usage
@@ -94,4 +102,3 @@ Click the trash can icon to delete the task.
 ###  Filtering Tasks
 Use the filter options provided to narrow down the tasks displayed in the app. You can filter tasks by status (All, Completed, Incomplete) or search for specific tasks by entering keywords in the search bar.
 
-![image](https://github.com/Rahul7879/Todo-APP-EmergentX/assets/108563991/4149a884-fc26-4b27-b881-cba8818b4e7d)
