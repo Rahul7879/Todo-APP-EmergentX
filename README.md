@@ -48,7 +48,9 @@ Install the backend dependencies:
 Copy code    
     ```code
 
-    'npm install'
+    npm init -y
+
+    npm install
   Configure the backend settings, such as MongoDB connection URI, in a .env file.
 
 Start the backend server:
